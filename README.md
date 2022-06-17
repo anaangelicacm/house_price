@@ -19,25 +19,35 @@ The assumptions about the business problem are as follows:
      - If the purchase value is less than the median value for the region (zipcode) + quarter influence: sale price + 30%.
 
 ## 3. Solution Strategy
-1. **Data Loading:** Collecting data from different sources (csv file and API) and joining them into a single table;
-2. **Data Description:** Know the characteristics of each variable, in order to plan data cleaning;
-3. **Data Cleaning:**
-4. **Feature Selection:**
-5. **Exploratory Data Analysis:**
+- **Step 1. Data Loading:** Collecting data from different sources (csv file and API) and joining them into a single table;
+- **Step 2. Data Description:** Know the characteristics of each variable, in order to plan data cleaning;
+- **Step 3. Data Cleaning:** This step consisted of deleting duplicate lines, dealing with missing data, dealing with inconsistent data and filtering the lines according to the business rules established at the beginning of the project.;
+- **Step 4. Feature Selection:** Selection of columns according to business rules;
+- **Step 5. Exploratory Data Analysis:** Visualization of data and raising of hypotheses;
+- **Step 6. Business Results**: Calculation of business results obtained;
+- **Step 7. Dashboard**: Creating a dashboard and hosting it in the cloud. The result can be seen through this [link](https://kc-house-analysis.herokuapp.com).
 
 ## 4. Top 3 Data Insights
+- Houses waterfront have the average price approximately the same as houses that are not near the water;
+- Taking into account seasonality, the average price of houses is the same in both semesters of the year;
+- Considering the index that quantifies the condition of the properties, the average house price is the average independent of the index (taking into account only houses with an index equal to or greater than 3).
 
 ## 5. Business Results
+- Of the 21613 homes available in King County, 10306 were selected according to business rules;
+- The sale value of the homes is US$468388.82;
+- The average home profit is US$79163.84;
+- If all houses are sold by House Rocket, the real estate company can earn up to US$815862515.80.
 
 ## 6. Conclusions
+The project achieved initial expectations, creating a cloud-hosted application that can be consulted by people in the company when offering homes according to what the customer wants. In addition, possible gains were calculated if the project were put into practice.
 
 ## 7. Lessons Learned
-1. ETL script creation;
-2. Data visualization tools: Matplotlib, Seaborn and Folium;
-3. Data manipulation tools: Pandas;
-4. Creating a Data Visualization App with Streamlit;
-5. Hosting the app on a free cloud: Heroku.
+- ETL script creation;
+- Data visualization tools: Matplotlib, Seaborn and Folium;
+- Data manipulation tools: Pandas;
+- Creating a Data Visualization App with Streamlit;
+- Hosting the app on a free cloud: Heroku.
 
 ## 8. Next Steps to Improve
-1. Collect data about the location of properties using another source, such as the Google Maps API;
-2. Collect data on points of interest close to properties, such as: hospitals, schools, parks, businesses, etc.
+- Collect data about the location of properties using another source, such as the Google Maps API;
+- Collect data on points of interest close to properties, such as: hospitals, schools, parks, businesses, etc.
