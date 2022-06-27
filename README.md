@@ -21,7 +21,7 @@ The assumptions about the business problem are as follows:
 ## 3. Solution Strategy
 - **Step 1. Data Loading:** Collecting data from different sources (csv file and API) and joining them into a single table;
 - **Step 2. Data Description:** Know the characteristics of each variable, in order to plan data cleaning;
-- **Step 3. Data Cleaning:** This step consisted of deleting duplicate lines, dealing with missing data, dealing with inconsistent data and filtering the lines according to the business rules established at the beginning of the project.;
+- **Step 3. Data Cleaning:** This step consisted of deleting duplicate lines, dealing with missing data, dealing with inconsistent data and filtering the lines according to the business rules established at the beginning of the project;
 - **Step 4. Feature Selection:** Selection of columns according to business rules;
 - **Step 5. Exploratory Data Analysis:** Visualization of data and raising of hypotheses;
 - **Step 6. Business Results**: Calculation of business results obtained;
